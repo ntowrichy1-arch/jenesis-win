@@ -1,190 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jenesis Approved Win</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Jenesis Approved Win</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
+        :root {
+            --primary: #2ecc71;
+            --dark: #1a1a1a;
+            --light: #ffffff;
+            --accent: #f1c40f;
+            --locked: #bdc3c7;
+        }
         body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
-            font-family: Arial;
-            background: #0b0b0b;
-            color: white;
+            padding: 0;
+            color: var(--dark);
         }
-
         header {
-            background: #111;
-            padding: 15px;
+            background-color: var(--dark);
+            color: var(--light);
+            padding: 25px 20px;
             text-align: center;
-            font-size: 14px;
-            color: #ccc;
+            border-bottom: 5px solid var(--primary);
         }
-
-        .title {
-            text-align: center;
-            color: gold;
-            font-size: 22px;
-            margin: 10px 0;
-        }
-
-        .container {
-            padding: 15px;
-        }
-
-        .info {
-            background: #1c1c1c;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        .match {
-            background: #1c1c1c;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 12px;
-        }
-
-        .teams {
-            font-size: 15px;
-            margin-bottom: 5px;
-        }
-
-        .tip {
-            color: #00ff88;
+        .date-bar {
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             margin-bottom: 10px;
         }
-
-        .locked {
-            color: red;
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
         }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            background: linear-gradient(45deg, green, limegreen);
-            border: none;
-            color: white;
-            font-size: 15px;
-            border-radius: 10px;
+        .intro-box {
+            background: var(--light);
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+            line-height: 1.6;
+            border: 1px solid #ddd;
         }
-
-        .payment {
-            background: #111;
+        h2 {
+            font-size: 1.1rem;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .game-card {
+            background: var(--light);
+            margin-bottom: 12px;
             padding: 15px;
             border-radius: 10px;
-            margin-top: 10px;
-            font-size: 13px;
-            display: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 6px solid var(--primary);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
-
-        .whatsapp {
+        .prediction {
+            font-weight: 700;
+            color: var(--primary);
             display: block;
+            margin-top: 4px;
+        }
+        .locked-card {
+            background: #ededed;
+            border-left: 6px solid var(--locked);
+            color: #7f8c8d;
+        }
+        .locked-text {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+        .payment-box {
+            background: #fff9e6;
+            border: 2px dashed var(--accent);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
             text-align: center;
-            margin-top: 20px;
         }
-
-        .whatsapp a {
-            background: #25D366;
+        .momo-details {
+            background: white;
             padding: 12px;
-            border-radius: 10px;
-            color: white;
-            text-decoration: none;
-            display: inline-block;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px solid #eee;
+            font-weight: 600;
         }
-
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #25D366;
+            color: white;
+            padding: 18px;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.75rem;
+            color: #999;
+        }
     </style>
 </head>
-
 <body>
 
 <header>
-Monday 13th April, 2026 — Welcome to Jenesis Approved Win where win is surety and without any fail
+    <div class="date-bar">Monday 13th April, 2026</div>
+    <h1>Jenesis Approved Win</h1>
+    <p style="margin: 0; opacity: 0.9;">Welcome to Jenesis Approved Win where win is surety and without any fail.</p>
 </header>
 
-<div class="title">🔥 Jenesis Approved Win 🔥</div>
-
 <div class="container">
-
-    <div class="info">
-        We provide only under 3.5 goals for the day where win is a must without failing.
-        Only 3 games are free for the day and the rest must be paid.
-        If you have any difficulties with payment or want extra odds, contact us through WhatsApp.
-        Other markets are predicted but only available in the VIP room.
+    <div class="intro-box">
+        We provide only <strong>Under 3.5 Goals</strong> for the day where win is a must without failing. Only 3 games are free for the day and the rest must be paid. If you have any difficulties with payment or you want extra odds please contact us through the WhatsApp button. There are other markets predicted but only given in the VIP room.
     </div>
 
-    <!-- FREE MATCHES -->
-    <div class="match">
-        <div class="teams">Levante vs Getafe</div>
-        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    <h2 style="color: var(--primary);"><i class="fas fa-unlock-alt"></i> Free Access Games</h2>
+    
+    <div class="game-card">
+        <div>
+            <strong>Levante vs Getafe</strong>
+            <span class="prediction">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-check-circle" style="color: var(--primary); font-size: 1.2rem;"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">AZ Picerno vs Cosenza Calcio</div>
-        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    <div class="game-card">
+        <div>
+            <strong>AZ Picerno vs Cosenza Calcio</strong>
+            <span class="prediction">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-check-circle" style="color: var(--primary); font-size: 1.2rem;"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">Beroe Stara vs Lokomotiv Plovdiv</div>
-        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    <div class="game-card">
+        <div>
+            <strong>Beroe Stara vs Locomotive Plovdiv</strong>
+            <span class="prediction">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-check-circle" style="color: var(--primary); font-size: 1.2rem;"></i>
     </div>
 
-    <!-- VIP MATCHES -->
-    <div class="match">
-        <div class="teams">Ogre United vs Grobinas</div>
-        <div class="tip locked">Under 3.5 Goals 🔒</div>
-        <button onclick="showPayment()">Unlock VIP</button>
+    <h2 style="color: #555;"><i class="fas fa-crown" style="color: var(--accent);"></i> VIP Premium Section</h2>
+
+    <div class="game-card locked-card">
+        <div>
+            <span class="locked-text">Team Names Hidden</span>
+            <span class="prediction" style="color: #95a5a6;">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-lock"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">Lusitania vs FC Porto B</div>
-        <div class="tip locked">Under 3.5 Goals 🔒</div>
-        <button onclick="showPayment()">Unlock VIP</button>
+    <div class="game-card locked-card">
+        <div>
+            <span class="locked-text">Team Names Hidden</span>
+            <span class="prediction" style="color: #95a5a6;">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-lock"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">Dolomiti Bellunesi vs Pro Patria</div>
-        <div class="tip locked">Under 3.5 Goals 🔒</div>
-        <button onclick="showPayment()">Unlock VIP</button>
+    <div class="game-card locked-card">
+        <div>
+            <span class="locked-text">Team Names Hidden</span>
+            <span class="prediction" style="color: #95a5a6;">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-lock"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">Erzurumspor FC vs Boluspor</div>
-        <div class="tip locked">Under 3.5 Goals 🔒</div>
-        <button onclick="showPayment()">Unlock VIP</button>
+    <div class="game-card locked-card">
+        <div>
+            <span class="locked-text">Team Names Hidden</span>
+            <span class="prediction" style="color: #95a5a6;">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-lock"></i>
     </div>
 
-    <div class="match">
-        <div class="teams">Benevento vs Cavese 1919</div>
-        <div class="tip locked">Under 3.5 Goals 🔒</div>
-        <button onclick="showPayment()">Unlock VIP</button>
+    <div class="game-card locked-card">
+        <div>
+            <span class="locked-text">Team Names Hidden</span>
+            <span class="prediction" style="color: #95a5a6;">Under 3.5 Goals</span>
+        </div>
+        <i class="fas fa-lock"></i>
     </div>
 
-    <!-- PAYMENT SECTION -->
-    <div class="payment" id="paymentBox">
-        <b>Payment Details:</b><br><br>
-        MTN MoMo: 0597004085 (Janet Owusua)<br>
-        Telecel Cash: 0209506773 (Agyiri Richard Nton)<br><br>
-
-        After payment, send proof via WhatsApp to get access.
+    <div class="payment-box">
+        <h3 style="margin-top: 0;">Unlock Full Access</h3>
+        <p>To see the hidden team names and extra odds, please pay via:</p>
+        
+        <div class="momo-details">
+            MTN MoMo: <span style="color: #000;">0597004085</span><br>
+            <small>(Janet Owusua)</small>
+        </div>
+        
+        <div class="momo-details">
+            Telecel Cash: <span style="color: #000;">0209506773</span><br>
+            <small>(Agyiri Richard Nton)</small>
+        </div>
+        
+        <p style="font-size: 0.85rem; margin-top: 15px;"><em>Send payment proof to WhatsApp for instant unlock.</em></p>
     </div>
 
-    <!-- WHATSAPP -->
-    <div class="whatsapp">
-        <a href="https://wa.me/233597004085" target="_blank">
-            Contact us on WhatsApp
-        </a>
-    </div>
-
+    <a href="https://wa.me/233597004085" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> CONTACT ON WHATSAPP
+    </a>
 </div>
 
-<script>
-function showPayment() {
-    document.getElementById("paymentBox").style.display = "block";
-}
-</script>
+<div class="footer">
+    &copy; 2026 Jenesis Approved Win. All match data is based on statistical probability.
+</div>
 
 </body>
 </html>
