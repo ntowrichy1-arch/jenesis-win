@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jenesis Approved Win</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #0b0b0b;
+            color: white;
+        }
+
+        header {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .title {
+            text-align: center;
+            color: gold;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        .info {
+            background: #1c1c1c;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .match {
+            background: #1c1c1c;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+        }
+
+        .teams {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .tip {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+
+        .locked {
+            color: red;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(45deg, green, limegreen);
+            border: none;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        .payment {
+            background: #111;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 13px;
+            display: none;
+        }
+
+        .whatsapp {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .whatsapp a {
+            background: #25D366;
+            padding: 12px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+Monday 13th April, 2026 — Welcome to Jenesis Approved Win where win is surety and without any fail
+</header>
+
+<div class="title">🔥 Jenesis Approved Win 🔥</div>
+
+<div class="container">
+
+    <div class="info">
+        We provide only under 3.5 goals for the day where win is a must without failing.
+        Only 3 games are free for the day and the rest must be paid.
+        If you have any difficulties with payment or want extra odds, contact us through WhatsApp.
+        Other markets are predicted but only available in the VIP room.
+    </div>
+
+    <!-- FREE MATCHES -->
+    <div class="match">
+        <div class="teams">Levante vs Getafe</div>
+        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    </div>
+
+    <div class="match">
+        <div class="teams">AZ Picerno vs Cosenza Calcio</div>
+        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    </div>
+
+    <div class="match">
+        <div class="teams">Beroe Stara vs Lokomotiv Plovdiv</div>
+        <div class="tip">Under 3.5 Goals ✅ (FREE)</div>
+    </div>
+
+    <!-- VIP MATCHES -->
+    <div class="match">
+        <div class="teams">Ogre United vs Grobinas</div>
+        <div class="tip locked">Under 3.5 Goals 🔒</div>
+        <button onclick="showPayment()">Unlock VIP</button>
+    </div>
+
+    <div class="match">
+        <div class="teams">Lusitania vs FC Porto B</div>
+        <div class="tip locked">Under 3.5 Goals 🔒</div>
+        <button onclick="showPayment()">Unlock VIP</button>
+    </div>
+
+    <div class="match">
+        <div class="teams">Dolomiti Bellunesi vs Pro Patria</div>
+        <div class="tip locked">Under 3.5 Goals 🔒</div>
+        <button onclick="showPayment()">Unlock VIP</button>
+    </div>
+
+    <div class="match">
+        <div class="teams">Erzurumspor FC vs Boluspor</div>
+        <div class="tip locked">Under 3.5 Goals 🔒</div>
+        <button onclick="showPayment()">Unlock VIP</button>
+    </div>
+
+    <div class="match">
+        <div class="teams">Benevento vs Cavese 1919</div>
+        <div class="tip locked">Under 3.5 Goals 🔒</div>
+        <button onclick="showPayment()">Unlock VIP</button>
+    </div>
+
+    <!-- PAYMENT SECTION -->
+    <div class="payment" id="paymentBox">
+        <b>Payment Details:</b><br><br>
+        MTN MoMo: 0597004085 (Janet Owusua)<br>
+        Telecel Cash: 0209506773 (Agyiri Richard Nton)<br><br>
+
+        After payment, send proof via WhatsApp to get access.
+    </div>
+
+    <!-- WHATSAPP -->
+    <div class="whatsapp">
+        <a href="https://wa.me/233597004085" target="_blank">
+            Contact us on WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<script>
+function showPayment() {
+    document.getElementById("paymentBox").style.display = "block";
+}
+</script>
+
+</body>
+</html>
